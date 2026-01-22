@@ -1,15 +1,15 @@
 <#
 .SYNOPSIS
-    Intune Proactive Remediation - Triggers Intune sync and logs scheduled workload times.
+    Intune Proactive Remediation (Detection Only) - Triggers Intune sync and logs scheduled workload times.
 
 .DESCRIPTION
-    This remediation script restarts the Intune Management Extension service to reset
-    delay timers, triggers an immediate sync, and logs the scheduled processing times
-    for each workload to a local log file.
+    This script restarts the Intune Management Extension service to reset delay timers,
+    triggers an immediate sync, and logs the scheduled processing times for each workload
+    to a local log file.
 
 .NOTES
-    Deploy as a Proactive Remediation without a detection script (or use a detection
-    script that always exits with code 1 to ensure this runs).
+    Deploy as a Proactive Remediation using DETECTION SCRIPT ONLY (no remediation script).
+    The script performs all actions during the detection phase and always exits with code 0.
 
     Run as: System
     Run in 64-bit PowerShell: Yes

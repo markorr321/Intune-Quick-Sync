@@ -25,9 +25,17 @@ WinGetApp will process at 14:35:42 (in 5 min 57 sec)
 Script will process at 14:31:08 (in 1 min 23 sec)
 ```
 
-### Proactive Remediation
+### Proactive Remediation (Detection Only)
 
-**[Remediation/Invoke-IntuneQuickSync-Remediation.ps1](Remediation/Invoke-IntuneQuickSync-Remediation.ps1)** - Deploy via Intune Proactive Remediations.
+**[Remediation/Invoke-IntuneQuickSync-Detection.ps1](Remediation/Invoke-IntuneQuickSync-Detection.ps1)** - Deploy via Intune Proactive Remediations.
+
+This script is deployed as a **detection script only** with no remediation script. All actions (service restart, sync trigger, logging) are performed during the detection phase. The script always exits with code 0, indicating "compliant" — this approach is ideal for health/maintenance scripts that should run on a schedule without requiring remediation logic.
+
+**Deployment Steps:**
+1. In Intune, go to **Devices > Remediations > Create script package**
+2. Upload `Invoke-IntuneQuickSync-Detection.ps1` as the **Detection script**
+3. Leave the **Remediation script** empty
+4. Configure the settings below and assign to your target group
 
 **Deployment Settings:**
 | Setting | Value |
