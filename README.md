@@ -25,6 +25,10 @@ WinGetApp will process at 14:35:42 (in 5 min 57 sec)
 Script will process at 14:31:08 (in 1 min 23 sec)
 ```
 
+**Example Output:**
+
+![Intune Quick Sync Output](2026-02-05_06-05-18.png)
+
 ### Proactive Remediation (Detection Only)
 
 **[Remediation/Invoke-IntuneQuickSync-Detection.ps1](Remediation/Invoke-IntuneQuickSync-Detection.ps1)** - Deploy via Intune Proactive Remediations.

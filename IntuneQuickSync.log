@@ -1,0 +1,10 @@
+2026-01-22 06:28:24 - ========== Intune Quick Sync Started ==========
+2026-01-22 06:28:24 - Restarting IntuneManagementExtension service...
+2026-01-22 06:28:27 - Service restarted successfully.
+2026-01-22 06:28:32 - Triggering Intune sync...
+2026-01-22 06:28:32 - Sync triggered.
+2026-01-22 06:28:37 - Parsing scheduled workload times...
+2026-01-22 06:28:37 - Win32RequiredApp scheduled for 2026-01-22 06:30:19 (in 1 min 42 sec)
+2026-01-22 06:28:37 - Win32AvailableApp scheduled for 2026-01-22 06:30:57 (in 2 min 20 sec)
+2026-01-22 06:28:37 - PowerShell scheduled for 2026-01-22 06:32:17 (in 3 min 40 sec)
+2026-01-22 06:28:37 - ========== Intune Quick Sync Completed ==========

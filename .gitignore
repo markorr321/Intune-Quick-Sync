@@ -1,8 +1,10 @@
-# Log files
+# Log files (except example)
 *.log
+!IntuneQuickSync.log
 
-# Screenshots and images
+# Screenshots and images (except examples)
 *.png
+!2026-02-05_06-05-18.png
 *.jpg
 *.jpeg
 *.gif
