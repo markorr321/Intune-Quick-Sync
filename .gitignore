@@ -1,0 +1,8 @@
+# Log files
+*.log
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+*.gif
